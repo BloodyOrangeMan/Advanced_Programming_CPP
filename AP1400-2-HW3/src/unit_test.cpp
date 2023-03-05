@@ -3,7 +3,7 @@
 #include "gmock/gmock.h"
 #include "bst.h"
 
-/*
+
 TEST(HW3Test, TEST1) {
 
     BST::Node left{10, nullptr, nullptr};
@@ -31,7 +31,6 @@ TEST(HW3Test, TEST3) {
     EXPECT_EQ(default_.left, nullptr);
     EXPECT_EQ(default_.right, nullptr);
 }
-
 TEST(HW3Test, TEST4) {
 
     BST::Node left{10, nullptr, nullptr};
@@ -192,6 +191,7 @@ TEST(HW3Test, TEST14) {
     EXPECT_EQ((*node)->right->value, 15);
 }
 
+/*
 TEST(HW3Test, TEST15) {
     BST bst{};
     bst.add_node(25);
